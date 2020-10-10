@@ -40,8 +40,8 @@ Oversampling:
 2. `SMOTE` algorithms.
 
 Undersampling:
-3. `Cluster Centroids` algorithm.
-4. Over- and under-sample using a combination `SMOTEENN` algorithm.
+1. `Cluster Centroids` algorithm.
+2. Over- and under-sample using a combination `SMOTEENN` algorithm.
 
 For each of the above, we will :
 
@@ -66,10 +66,10 @@ Using the metrics we will answer the following questions:
 
 4. Did the encoding technique used in this notebook had any impact on the results compared to previous notebook?
 * Integer Encoding technique alone that is used in this notebook had very little impact (some metrics are down by 0.01) on the overall results.
-* However, the resampling model selection had changed when using Integer encoding alone as against both Integeer and binary Encoding. just for the fact that there's difference of 1% to 1.5% in the classification metrics.  
+ 
 
 ## Conclusion:
-SMOTE and SMOTEENN sampling models are better for our Credit Risk modeling compared to Random OVersampling  or Cluster centroid. 
+SMOTE and SMOTEENN sampling models are better for our Credit Risk modeling compared to Random Oversampling  or Cluster centroid. 
 
 
 ### Result

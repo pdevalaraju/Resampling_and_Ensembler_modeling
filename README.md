@@ -1,7 +1,7 @@
 # Resampling_and_Ensembler_modeling
 Evaluate several machine-learning models to predict credit risk using free data from LendingClub.
 
-![Credit Risk](Images/credit-risk.jpg)
+![Credit Risk](Resources/credit-risk.jpg)
 
 ## Background
 
@@ -76,11 +76,11 @@ SMOTE and SMOTEENN sampling models are better for our Credit Risk modeling compa
 
 <table> <tr> <td>
 
-![Lending Club Loans Encoded Data](Resources/clf_metrics_double_encode.PNG)
+![Lending Club Loans Encoded Data](Resources/clf_metric_double_encode.PNG)
 </td>
 <td>
 
-![Lending Club Loans Encoded Data](Resources/clf_metrics_integer_encode.PNG)
+![Lending Club Loans Encoded Data](Resources/clf_metric_integer_encode.PNG)
 </tr>
 </table>
 
@@ -117,7 +117,7 @@ using the metrics we will answer the following:
 
 <table> <tr> <td>
 
-![Lending Club Loans Encoded Data](Resources/ensembeler_clf_metrics.PNG)
+![Lending Club Loans Encoded Data](Resources/ensembler_clf_metrics.PNG)
 </td>
 <td>
 
